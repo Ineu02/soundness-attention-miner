@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2025-09-01T13:57:07.122Z",
+  "weights": {
+    "discord_msg": 1,
+    "discord_reply": 2,
+    "tweet": 3,
+    "github_commit": 5
+  },
+  "eventsProcessed": 5,
+  "counts": {
+    "discord_msg": 2,
+    "discord_reply": 1,
+    "tweet": 1,
+    "github_commit": 1,
+    "other": 0
+  },
+  "leaderboard": [
+    {
+      "user": "Ineu02",
+      "score": 6
+    },
+    {
+      "user": "neo",
+      "score": 5
+    },
+    {
+      "user": "flupyxyz",
+      "score": 1
+    }
+  ]
+}

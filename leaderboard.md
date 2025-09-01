@@ -1,0 +1,1 @@
+# Attention Leaderboard\n\nGenerated: 2025-09-01 13:57:07 UTC\n\n| Rank | User | Score |\n|----:|:-----|------:|\n| 1 | Ineu02 | 6 |\n| 2 | neo | 5 |\n| 3 | flupyxyz | 1 |

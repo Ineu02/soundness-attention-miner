@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"/><title>Attention Leaderboard</title>
+<body style="font-family:system-ui;margin:40px;max-width:900px">
+<h1>Attention Leaderboard</h1>
+<p><small>Generated at <span id="ts"></span></small></p>
+<table id="tbl" border="1" cellpadding="8" cellspacing="0"></table>
+<script>
+fetch("./leaderboard.json").then(r=>r.json()).then(d=>{
+  document.getElementById("ts").textContent = d.generatedAt;
+  const t = document.getElementById("tbl");
+  t.innerHTML = "<tr><th>Rank</th><th>User</th><th>Score</th></tr>" +
+    d.leaderboard.map((r,i)=>"<tr><td>"+(i+1)+"</td><td>"+r.user+"</td><td>"+r.score+"</td></tr>").join("");
+});
+</script>
+</body></html>
